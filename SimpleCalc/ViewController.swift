@@ -8,13 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+
+class ViewController: UIViewController {
+    
+    
+    
+    @IBOutlet weak var mExpressionText: UITextField!
+    @IBOutlet weak var mResultLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttonPressed(_ sender: UIButton) {
+         let buttonText = sender.currentTitle!
+        
+        if(buttonText.isDigit || buttonText.isOperand){
+         mExpressionText.insertText(buttonText)
+        }
+    }
+    
+    
 }
-

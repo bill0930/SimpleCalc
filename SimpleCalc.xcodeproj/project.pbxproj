@@ -13,6 +13,7 @@
 		28387C85235113F60010A39A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28387C83235113F60010A39A /* Main.storyboard */; };
 		28387C87235114020010A39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28387C86235114020010A39A /* Assets.xcassets */; };
 		28387C8A235114020010A39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28387C88235114020010A39A /* LaunchScreen.storyboard */; };
+		2857EE7E23525882000F33DF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857EE7D23525881000F33DF /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		28387C86235114020010A39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28387C89235114020010A39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28387C8B235114020010A39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2857EE7D23525881000F33DF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				28387C7D235113F60010A39A /* AppDelegate.swift */,
 				28387C7F235113F60010A39A /* SceneDelegate.swift */,
 				28387C81235113F60010A39A /* ViewController.swift */,
+				2857EE7D23525881000F33DF /* StringExtension.swift */,
 				28387C83235113F60010A39A /* Main.storyboard */,
 				28387C86235114020010A39A /* Assets.xcassets */,
 				28387C88235114020010A39A /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2857EE7E23525882000F33DF /* StringExtension.swift in Sources */,
 				28387C82235113F60010A39A /* ViewController.swift in Sources */,
 				28387C7E235113F60010A39A /* AppDelegate.swift in Sources */,
 				28387C80235113F60010A39A /* SceneDelegate.swift in Sources */,
