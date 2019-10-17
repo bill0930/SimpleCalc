@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281863BA23577ADE00616C17 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28387C7E235113F60010A39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387C7D235113F60010A39A /* AppDelegate.swift */; };
 		28387C80235113F60010A39A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387C7F235113F60010A39A /* SceneDelegate.swift */; };
 		28387C82235113F60010A39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28387C81235113F60010A39A /* ViewController.swift */; };
@@ -14,9 +15,26 @@
 		28387C87235114020010A39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28387C86235114020010A39A /* Assets.xcassets */; };
 		28387C8A235114020010A39A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28387C88235114020010A39A /* LaunchScreen.storyboard */; };
 		2857EE7E23525882000F33DF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857EE7D23525881000F33DF /* StringExtension.swift */; };
+		F5B48B137295A682C21F7E9A /* Pods_SimpleCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2B052842B5EFF600D8BA30 /* Pods_SimpleCalc.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		281863B823577ADB00616C17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				281863BA23577ADE00616C17 /* (null) in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B6BD8E999FEDF50E9EA957E /* Pods-SimpleCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalc.debug.xcconfig"; path = "Target Support Files/Pods-SimpleCalc/Pods-SimpleCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		281863BB23577C2300616C17 /* SimpleCalc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCalc-Bridging-Header.h"; sourceTree = "<group>"; };
 		28387C7A235113F60010A39A /* SimpleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28387C7D235113F60010A39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28387C7F235113F60010A39A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +44,8 @@
 		28387C89235114020010A39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28387C8B235114020010A39A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2857EE7D23525881000F33DF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		5D2B052842B5EFF600D8BA30 /* Pods_SimpleCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DD05C8E298566725278C32 /* Pods-SimpleCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleCalc.release.xcconfig"; path = "Target Support Files/Pods-SimpleCalc/Pods-SimpleCalc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B48B137295A682C21F7E9A /* Pods_SimpleCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				28387C7C235113F60010A39A /* SimpleCalc */,
 				28387C7B235113F60010A39A /* Products */,
+				C6969781AD2D45912783DFC8 /* Pods */,
+				32D4B8C941E8379AB07B8D6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +89,26 @@
 				28387C86235114020010A39A /* Assets.xcassets */,
 				28387C88235114020010A39A /* LaunchScreen.storyboard */,
 				28387C8B235114020010A39A /* Info.plist */,
+				281863BB23577C2300616C17 /* SimpleCalc-Bridging-Header.h */,
 			);
 			path = SimpleCalc;
+			sourceTree = "<group>";
+		};
+		32D4B8C941E8379AB07B8D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B052842B5EFF600D8BA30 /* Pods_SimpleCalc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6969781AD2D45912783DFC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B6BD8E999FEDF50E9EA957E /* Pods-SimpleCalc.debug.xcconfig */,
+				B0DD05C8E298566725278C32 /* Pods-SimpleCalc.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28387C8E235114020010A39A /* Build configuration list for PBXNativeTarget "SimpleCalc" */;
 			buildPhases = (
+				21F33DB0E46D543D2A8B7F84 /* [CP] Check Pods Manifest.lock */,
 				28387C76235113F60010A39A /* Sources */,
 				28387C77235113F60010A39A /* Frameworks */,
 				28387C78235113F60010A39A /* Resources */,
+				281863B823577ADB00616C17 /* Embed Frameworks */,
+				B043F534E45CFC1FF7EEAF73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +179,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F33DB0E46D543D2A8B7F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B043F534E45CFC1FF7EEAF73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleCalc/Pods-SimpleCalc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleCalc/Pods-SimpleCalc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleCalc/Pods-SimpleCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28387C76235113F60010A39A /* Sources */ = {
@@ -286,6 +372,7 @@
 		};
 		28387C8F235114020010A39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6BD8E999FEDF50E9EA957E /* Pods-SimpleCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +391,7 @@
 		};
 		28387C90235114020010A39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DD05C8E298566725278C32 /* Pods-SimpleCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

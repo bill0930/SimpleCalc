@@ -1,0 +1,16 @@
+PODS:
+  - Expression (0.13.2)
+
+DEPENDENCIES:
+  - Expression (~> 0.13)
+
+SPEC REPOS:
+  trunk:
+    - Expression
+
+SPEC CHECKSUMS:
+  Expression: d701814068e202209e82c3e4d7cc573d3028e6e8
+
+PODFILE CHECKSUM: d57f968ab4af0a3dc8e222dd48854f6983b303f4
+
+COCOAPODS: 1.8.3

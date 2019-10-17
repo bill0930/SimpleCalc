@@ -13,7 +13,16 @@ extension String  {
         return !isEmpty && rangeOfCharacter(from: CharacterSet.decimalDigits.inverted) == nil
     }
     
+    var isNumber: Bool {
+        return !isEmpty && rangeOfCharacter(from: CharacterSet.decimalDigits.inverted) == nil
+    }
+    
     var isOperand: Bool {
-        return self == "+" || self == "-" || self == "*" || self == "/" || self == "​√" || self == "%" || self == "(" || self == ")"
+        return self == "+" || self == "-" || self == "*" || self == "/" || self == "%" || self == "(" || self == ")" || self == "√"
+            || self == "SHIFT"
+    }
+    
+    var requireParentheses: Bool {
+        return self == "√"
     }
 }

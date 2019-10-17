@@ -11,3 +11,5 @@
 
 
 #endif /* SimpleCalc_Bridging_Header_h */
+
+#import "MathParser.h"
